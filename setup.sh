@@ -7,6 +7,7 @@ git config --global user.email leon.zharikov@gimail.com
 git config --list --global
 
 ssh-keygen -t rsa -b 4096 -C "leon.zharikov@gimail.com" -f $HOME/.ssh/id_rsa -N ''
+xclip -sel clip < ~/.ssh/id_rsa.pub
 
 echo "Setup audio..."
 amixer -c 1 set 'Master' 57
