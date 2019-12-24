@@ -2,4 +2,4 @@
 
 apt-get update
 apt-get upgrade -y
-apt-get install -y xclip htop tree vim
+apt-get install -y xclip htop tree vim google-chrome-stable
